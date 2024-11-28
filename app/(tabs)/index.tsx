@@ -3,7 +3,7 @@ import {View, ScrollView } from "react-native";
 import ComponentFunctional from './soalno2/ComponentFunctional';
 import ClassComponent from './soalno2/ClassComponent';
 import Tombol from './soalno3/index';
-import DuaLayar from "./soalno5/DuaLayar";
+import DuaLayar from "./soalno5";
 
 const App = () => {
     return (
