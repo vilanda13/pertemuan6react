@@ -1,14 +1,18 @@
 import React from "react";
 import {View, ScrollView } from "react-native";
-import MateriFlexBox from "../(tabs)/MateriFlexBox";
-import Position from "../(tabs)/PositionReactNative";
+import ComponentFunctional from './soalno2/ComponentFunctional';
+import ClassComponent from './soalno2/ClassComponent';
+import Tombol from './soalno3/index';
+import DuaLayar from "./soalno5/DuaLayar";
 
 const App = () => {
     return (
       <View>
         <ScrollView>
-          {/*<MateriFlexBox/>*/ }
-          <Position />
+          <ComponentFunctional />
+          <ClassComponent />
+          <Tombol />
+          <DuaLayar />
         </ScrollView>
       </View>
     );
